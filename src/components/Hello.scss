@@ -1,0 +1,23 @@
+
+@import "./../style";
+
+.splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $body-bgcolor;
+  h1 {
+    margin-top: 5vh;
+    text-align: center;
+  }
+
+  .start-btn{
+    margin-top: auto;
+    margin-bottom: 10vh;
+  }
+}

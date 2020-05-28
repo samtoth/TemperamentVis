@@ -1,0 +1,37 @@
+$body-bgcolor: #282c34;
+$body-color: white;
+$button-color: #0a91ae;
+
+body {
+  background-color: $body-bgcolor;
+  color: $body-color;
+  font-family: "Roboto Light",sans-serif;
+
+  h1.title{
+    margin-top: 5vh;
+    text-align: center;
+  }
+
+  button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    &.primary {
+      border-radius: 5px;
+      padding: 14px 80px;
+      cursor: pointer;
+      color: $button-color;
+      background-color: transparent;
+      font-size: 1.5rem;
+      font-weight: 100;
+      border: 1px solid $button-color;
+      transition-duration: 0.5s;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+    }
+    &:hover{
+      color: #006398;
+      border: 1px solid #006398;
+    }
+  }
+}

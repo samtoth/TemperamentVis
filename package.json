@@ -1,48 +1,36 @@
 {
-  "name": "temperamentvis",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/samtoth/TemperamentVis.git"
-  },
+  "keywords": [],
   "author": "",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/samtoth/TemperamentVis/issues"
-  },
-  "homepage": "https://github.com/samtoth/TemperamentVis#readme",
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
+  "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/plugin-syntax-class-properties": "^7.8.3",
-    "@babel/plugin-syntax-import-meta": "^7.8.3",
-    "@babel/preset-env": "^7.9.6",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
-    "babel-loader": "^8.1.0",
     "copy-webpack-plugin": "^6.0.1",
-    "export-loader": "^1.0.52",
-    "exports-loader": "^0.7.0",
-    "file-loader": "^6.0.0",
-    "html-loader": "^1.1.0",
+    "css-loader": "^3.5.3",
     "html-webpack-plugin": "^4.3.0",
-    "script-loader": "^0.7.2",
-    "source-map-loader": "^0.2.4",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
     "ts-loader": "^7.0.4",
     "typescript": "^3.9.3",
-    "val-loader": "^2.1.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^4.2.2"
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.10.0",
+    "konva": "^6.0.0",
+    "mathjs": "^7.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-konva": "^16.13.0-3"
   }
 }
